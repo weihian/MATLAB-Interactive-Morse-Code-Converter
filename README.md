@@ -2,7 +2,7 @@
 
 An interactive Graphical User Interface (GUI) built in MATLAB for seamless conversion between alphanumeric text and Morse code. This tool supports real-time audio generation, visual signaling, and file-based input/output.
 
-## 🚀 Features
+##  Features
 
 * **Bidirectional Conversion:** * **Text to Morse:** Converts English characters, numbers, and symbols into Morse signals.
     * **Morse to Text:** Decodes Morse code sequences (dots and dashes) back into readable text.
@@ -12,12 +12,12 @@ An interactive Graphical User Interface (GUI) built in MATLAB for seamless conve
 * **Interactive UI:** Built using MATLAB GUIDE, featuring intuitive text areas, conversion buttons, and a clean menu system.
 * **Custom Themes:** Includes a "Theme" menu for personalizing the GUI appearance.
 
-## 🛠️ Requirements
+##  Requirements
 
 * MATLAB (R2016a or newer recommended)
 * Audio output device (for Morse playback)
 
-## 📖 How to Use
+##  How to Use
 
 1.  **Launch the App:** Run the `YongWeiHian20194532.m` file in MATLAB.
 2.  **Text to Morse:**
@@ -30,12 +30,12 @@ An interactive Graphical User Interface (GUI) built in MATLAB for seamless conve
 4.  **File Operations:**
     * Use the `File` menu to open existing scripts or save your generated Morse code.
 
-## 📂 File Structure
+##  File Structure
 
 * `YongWeiHian20194532.m`: Main logic and callback functions for the GUI.
 * `YongWeiHian20194532.fig`: The visual layout file (ensure this is in the same folder as the `.m` file).
 
-## 📝 Technical Details
+##  Technical Details
 
 The application uses a mapping logic to translate characters into a timing-based audio array.
 - **Dot:** Short pulse.
